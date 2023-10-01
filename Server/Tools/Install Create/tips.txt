@@ -1,0 +1,16 @@
+to create an installation you need the application
+nsis
+
+
+First of all, this is a tutorial!
+If you can't, it's because you didn't try!
+follow the steps:
+
+1: download nsis
+2: copy the files "nsis.bmp", "license", "readme"
+3:copy the script and play inside your client
+4: after doing this click with the "right" button of the mouse and go to "Compile NSIS SCRIPT"
+5: an assistant will appear on it, you can already see the script run alone
+6: wait for the wizard to finish compiling your installer
+
+the text > 'license.txt' is created by you
