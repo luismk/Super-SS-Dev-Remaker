@@ -266,10 +266,6 @@ std::vector<ctx_coin_item_ex> MemorialSystem::drawCoin(player& _session, ctx_coi
 			}
 			break;
 		case MCT_PREMIUM:
-			if (el.gacha_number < 0 || static_cast<uint32_t>(el.gacha_number) <= m_level[MEMORIAL_LEVEL_MAX].gacha_number) {
-				lottery.push(el.probabilidade, reinterpret_cast<size_t>(&el));
-			}
-			break;
 		case MCT_CHARACTER:
 		case MCT_SPECIAL:
 			lottery.push(el.probabilidade, reinterpret_cast<size_t>(&el));
